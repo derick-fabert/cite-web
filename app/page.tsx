@@ -80,7 +80,7 @@ function Hero() {
           <span className="text-brand-red">I</span>ndiana{" "}
           <span className="text-brand-red">T</span>ruck{" "}
           <span className="text-brand-red">E</span>quipment{" "}
-          <span className="text-brand-red">C</span>orp.
+          Corp.
         </h1>
       </div>
 
@@ -88,7 +88,7 @@ function Hero() {
         <div className=" my-auto max-w-[1000px] p-2 flex flex-col md:flex-row gap-4 items-center justify-center">
           <p className="text-base leading-relaxed text-slate-700">
             Your authorized Heil refuse equipment dealer servicing Indiana, Northen Kentucky and
-            East Central Illinois. We offer Schaefer carts, 3 rd Eye camera systems, Curotto-Can
+            East Central Illinois. We offer Schaefer carts, 3rd Eye camera systems, Curotto-Can
             automation and Bayne Thinline lifters, backed by local expertise to keep routes safe and
             productive.
           </p>
