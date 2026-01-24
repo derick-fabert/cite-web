@@ -65,7 +65,7 @@ function Hero() {
   return (
     <section className="bg-slate-50 text-slate-900 p-2">
       <div className="flex items-center justify-center gap-8">
-        <div className="relative min-h-[220px] w-full max-w-72">
+        <div className="relative min-h-[220px] w-full max-w-36 sm:max-w-72">
           <Image
             src="/Logo-transparent.png"
             alt="Central Indiana Truck Equipment logo"
@@ -75,20 +75,22 @@ function Hero() {
             priority
           />
         </div>
-        <h1 className="font-extrabold uppercase tracking-[0.2em] text-slate-900 sm:text-3xl">
-          <span className="text-brand-red">C</span>entral{" "}
-          <span className="text-brand-red">I</span>ndiana{" "}
-          <span className="text-brand-red">T</span>ruck{" "}
-          <span className="text-brand-red">E</span>quipment{" "}
-          Corp.
+        <h1 className="font-extrabold uppercase tracking-[0.2em] text-slate-900 sm:text-2xl md:text-3xl">
+          <div><span className="text-brand-red">C</span>entral</div>
+          <div><span className="text-brand-red">I</span>ndiana</div>
+          <div><span className="text-brand-red">T</span>ruck</div>
+          <div><span className="text-brand-red">E</span>quipment</div>
+          {/* <div>Corp.</div> */}
         </h1>
       </div>
+
+      <div className="text-center text-slate-500 my-4 italic md:text-2xl">In business since 1961</div>
 
       <div className="flex items-center justify-center">
         <div className=" my-auto max-w-[1000px] p-2 flex flex-col md:flex-row gap-4 items-center justify-center">
           <p className="text-base leading-relaxed text-slate-700">
-            Your authorized Heil refuse equipment dealer servicing Indiana, Northen Kentucky and
-            East Central Illinois. We offer Schaefer carts, 3rd Eye camera systems, Curotto-Can
+            Your authorized Heil refuse equipment dealer servicing Indiana, Northern Kentucky and
+            East Central Illinois. We also  offer Schaefer carts, 3rd Eye camera systems, Curotto-Can
             automation and Bayne Thinline lifters, backed by local expertise to keep routes safe and
             productive.
           </p>
