@@ -75,16 +75,12 @@ function Hero() {
             priority
           />
         </div>
-        <h1 className="font-extrabold uppercase tracking-[0.2em] text-slate-900 sm:text-2xl md:text-3xl">
-          <div><span className="text-brand-red">C</span>entral</div>
-          <div><span className="text-brand-red">I</span>ndiana</div>
-          <div><span className="text-brand-red">T</span>ruck</div>
-          <div><span className="text-brand-red">E</span>quipment</div>
-          {/* <div>Corp.</div> */}
+        <h1 className="font-extrabold uppercase tracking-[0.2em] text-slate-900 sm:text-3xl">
+          Central Indiana Truck Equipment Corp.
         </h1>
       </div>
 
-      <div className="text-center text-slate-500 my-4 italic md:text-2xl">In business since 1961</div>
+      <div className="text-center text-slate-500 my-4 italic md:text-2xl">Since 1961</div>
 
       <div className="flex items-center justify-center">
         <div className=" my-auto max-w-[1000px] p-2 flex flex-col md:flex-row gap-4 items-center justify-center">
