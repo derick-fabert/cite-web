@@ -76,7 +76,10 @@ function Hero() {
           />
         </div>
         <h1 className="font-extrabold uppercase tracking-[0.2em] text-slate-900 sm:text-3xl">
-          Central Indiana Truck Equipment Corp.
+          <span className="text-red-600">C</span>entral{" "}
+          <span className="text-red-600">I</span>ndiana{" "}
+          <span className="text-red-600">T</span>ruck{" "}
+          <span className="text-red-600">E</span>quipment Corp.
         </h1>
       </div>
 
@@ -98,7 +101,7 @@ function Hero() {
             <p className="mt-2">
               2128 South Harding Street
               <br />
-              Indianapolis, IN 46106
+              Indianapolis, IN 46221
             </p>
             <p className="mt-3">
               <span className="font-semibold text-slate-900">Phone:</span>{" "}
